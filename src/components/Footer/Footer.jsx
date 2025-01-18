@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 md:mx-0 mx-auto text-center md:text-left">
             <h3 className="font-bold text-2xl">
-              Mech <span>Shop</span>
+              Mech <span className="text-red-600">Shop</span>
             </h3>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -md-10 md:mt-0 mt-10 md:text-left text-center">
@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-500 text-white">
+        <div className="bg-red-500 text-white">
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-sm text-center sm:text-left">
               &copy; 2024 MechShop <span>@copyright</span>

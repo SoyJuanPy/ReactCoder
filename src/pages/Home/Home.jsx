@@ -1,9 +1,10 @@
+import HeroSection from "../../components/Herosection/HeroSection";
 import Layout from "../../components/Layout/Layout";
 
 const Home = () => {
   return (
     <Layout>
-      <div className="h-[90vh]">Home</div>
+      <HeroSection />
     </Layout>
   );
 };

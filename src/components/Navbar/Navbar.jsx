@@ -1,3 +1,4 @@
+import { FaCartShopping } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
             <div>
               <Link to={"/"}>
                 <h3 className="font-bold text-2xl">
-                  Mech<span>Shop</span>
+                  Mech<span className="text-red-600">Shop</span>
                 </h3>
               </Link>
             </div>
@@ -26,11 +27,13 @@ const Navbar = () => {
               <li className="mr-5 hover:text-gray-900 cursor-pointer">Kids</li>
             </ul>
             <div className="flex justify-center items-center gap-5">
-              <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+              <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 font-semibold">
                 Login
               </button>
               <Link to="/cart">
-                <button>Cart</button>
+                <button>
+                  <FaCartShopping size={25} />
+                </button>
               </Link>
             </div>
           </div>
