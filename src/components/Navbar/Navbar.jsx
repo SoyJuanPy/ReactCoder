@@ -27,10 +27,12 @@ const Navbar = () => {
                     Home
                   </li>
                 </Link>
+                <Link to="/allproduct">
+                  <li className="mr-5 hover:text-gray-900 cursor-pointer">
+                    All Products
+                  </li>
+                </Link>
 
-                <li className="mr-5 hover:text-gray-900 cursor-pointer">
-                  All item
-                </li>
                 <li className="mr-5 hover:text-gray-900 cursor-pointer">
                   Mens
                 </li>
@@ -48,10 +50,12 @@ const Navbar = () => {
                       Home
                     </li>
                   </Link>
+                  <Link to="/allproduct">
+                    <li className="mt-5 hover:text-gray-900 cursor-pointer">
+                      All Products
+                    </li>
+                  </Link>
 
-                  <li className="mt-5 hover:text-gray-900 cursor-pointer">
-                    All Products
-                  </li>
                   <li className="mt-5 hover:text-gray-900 cursor-pointer">
                     Mens
                   </li>
@@ -67,9 +71,11 @@ const Navbar = () => {
               ""
             )}
             <div className="flex justify-center items-center gap-5">
-              <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 font-semibold">
-                Login
-              </button>
+              <Link to="/login">
+                <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 font-semibold">
+                  Login
+                </button>
+              </Link>
               <Link to="/cart">
                 <button>
                   <FaCartShopping size={25} />
