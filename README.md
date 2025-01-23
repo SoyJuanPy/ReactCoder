@@ -1,10 +1,25 @@
-# React + Vite
+## cómo empezar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. clonar el repositorio:
 
-Currently, two official plugins are available:
+   ```sh
+   git clone https://github.com/tu-usuario/tu-repo.git
+   cd tu-repo
+   ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# ReactCoder
-# ReactCoder
+2. instalar dependencias:
+
+   ```sh
+   bun install
+   ```
+
+3. iniciar el servidor de desarrollo:
+   ```sh
+   bun run dev
+   ```
+
+## scripts disponibles
+
+- `bun run dev`: inicia el servidor de desarrollo con hmr
+- `bun run build`: construye el proyecto para producción
+- `bun run lint`: corre eslint para encontrar y arreglar problemas en el código
